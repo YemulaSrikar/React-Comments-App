@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+.main-container {
+  padding: 40px;
+  border-radius: 06px;
+}
+.comments-img-container {
+  display: flex;
+  box-shadow: 0px 0px 2px 0px #475569;
+  padding: 30px;
+}
+
+.comments-head {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.comments-desc {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.form-cont {
+  width: 100%;
+}
+.form-container {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.input-ele {
+  border-radius: 05px;
+  border-width: 1px;
+  border-color: #cbd2d9;
+  height: 20px;
+  padding: 18px;
+  margin-bottom: 18px;
+  outline: none;
+}
+.textarea-ele {
+  border-radius: 05px;
+  border-width: 1px;
+  border-color: #cbd2d9;
+  padding: 10px;
+  margin-bottom: 18px;
+  outline: none;
+}
+.comment-button {
+  border-width: 0px;
+  border-radius: 08px;
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 10px;
+  width: 120px;
+  cursor: pointer;
+  outline: none;
+}
+.comment-img {
+  height: 50%;
+  margin-left: 70px;
+}
+.comments-container {
+  display: flex;
+}
+.comments-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-width: 0px;
+  border-radius: 2px;
+  text-align: center;
+}
+.comments-name {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 08px;
+}
